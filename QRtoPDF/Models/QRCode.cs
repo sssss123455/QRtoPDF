@@ -19,7 +19,7 @@ namespace QRtoPDF.Models
             
             var code = new QRCode();
             code.Qr = qrCodeImageAsBase64;
-            
+             
             
             return code;
         }
